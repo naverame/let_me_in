@@ -3,3 +3,8 @@ What moves origin/HEAD "organically"?
     git clone sets it once to the spot where HEAD is on origin
         it serves as the default branch to checkout after cloning with git clone
 
+What does HEAD on origin represent?
+
+    on bare repositories (often repositories “on servers”) it serves as a marker for the default branch, because git clone uses it in such a way
+    on non-bare repositories (local or remote), it reflects the repository’s current checkout
+
