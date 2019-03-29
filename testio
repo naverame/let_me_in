@@ -10,3 +10,8 @@ What sets origin/HEAD?
     git remote set-head origin -a fetches and sets it
         useful to update the local knowledge of what remote considers the “default branch”
 
+What does HEAD on origin represent?
+
+    on bare repositories (often repositories “on servers”) it serves as a marker for the default branch, because git clone uses it in such a way
+    on non-bare repositories (local or remote), it reflects the repository’s current checkout
+
