@@ -1,0 +1,5 @@
+What moves origin/HEAD "organically"?
+
+    git clone sets it once to the spot where HEAD is on origin
+        it serves as the default branch to checkout after cloning with git clone
+
