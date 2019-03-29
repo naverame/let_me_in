@@ -17,3 +17,8 @@ Trivia
     unfortunately nothing is able to set HEAD on the remote
     older versions of git did not know which branch HEAD points to on the remote, only which commit hash it finally has: so it just hopefully picked a branch name pointing to the same hash
 
+What does HEAD on origin represent?
+
+    on bare repositories (often repositories “on servers”) it serves as a marker for the default branch, because git clone uses it in such a way
+    on non-bare repositories (local or remote), it reflects the repository’s current checkout
+
